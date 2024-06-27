@@ -1,7 +1,7 @@
 <application>
   <component name="ActionsLocalSummary">
     <e n="EditorBackSpace">
-      <i c="31" l="1712656669572" />
+      <i c="32" l="1719472831195" />
     </e>
     <e n="EditorEnter">
       <i c="2" l="1712656676163" />
@@ -14,6 +14,9 @@
     </e>
     <e n="RedesignedRunConfigurationSelector">
       <i c="3" l="1712656687046" />
+    </e>
+    <e n="Run">
+      <i c="1" l="1719472822859" />
     </e>
     <e n="WelcomeScreen.CreateNewProject">
       <i c="3" l="1712656569647" />

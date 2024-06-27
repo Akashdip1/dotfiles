@@ -13,3 +13,4 @@ application/pdf=okularApplication_pdf.desktop;
 application/octet-stream=gvim.desktop;
 application/epub+zip=firefox.desktop;com.github.johnfactotum.Foliate.desktop;
 audio/flac=io.bassi.Amberol.desktop;
+application/x-zerosize=onlyoffice-desktopeditors.desktop;

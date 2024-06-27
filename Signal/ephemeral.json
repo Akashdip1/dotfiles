@@ -6,10 +6,10 @@
   "window": {
     "maximized": false,
     "autoHideMenuBar": false,
-    "fullscreen": false,
-    "width": 1376,
-    "height": 799,
-    "x": 32,
-    "y": 69
+    "fullscreen": true,
+    "width": 1440,
+    "height": 900,
+    "x": 0,
+    "y": 0
   }
 }
