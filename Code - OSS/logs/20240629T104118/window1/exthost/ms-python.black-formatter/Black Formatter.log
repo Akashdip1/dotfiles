@@ -1,0 +1,231 @@
+2024-06-29 10:41:51.370 [info] Name: Black Formatter
+2024-06-29 10:41:51.370 [info] Module: black
+2024-06-29 10:41:51.370 [info] Default formatter is set to null for workspace /home/ash/Documents/Coding/Python
+2024-06-29 10:41:51.370 [warning] Black Formatter is NOT set as the default formatter for workspace /home/ash/Documents/Coding/Python
+2024-06-29 10:41:51.370 [warning] To set Black Formatter as the default formatter, add the following to your settings.json file:
+2024-06-29 10:41:51.370 [warning] 
+"[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+}
+2024-06-29 10:41:51.370 [info] Python extension loading
+2024-06-29 10:41:51.370 [info] Waiting for interpreter from python extension.
+2024-06-29 10:41:51.375 [info] No interpreter found from setting black-formatter.interpreter
+2024-06-29 10:41:51.375 [info] Getting interpreter from ms-python.python extension for workspace /home/ash/Documents/Coding/Python
+2024-06-29 10:41:51.377 [info] Python extension loaded
+2024-06-29 10:41:51.379 [info] Interpreter from ms-python.python extension for /home/ash/Documents/Coding/Python: /home/ash/Documents/Coding/Python/bin/python
+2024-06-29 10:41:51.379 [info] Workspace settings for /home/ash/Documents/Coding/Python (client side): {
+    "cwd": "/home/ash/Documents/Coding/Python",
+    "workspace": "file:///home/ash/Documents/Coding/Python",
+    "args": [],
+    "path": [],
+    "interpreter": [
+        "/home/ash/Documents/Coding/Python/bin/python"
+    ],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2024-06-29 10:41:51.380 [info] No interpreter found from setting black-formatter.interpreter
+2024-06-29 10:41:51.380 [info] Getting interpreter from ms-python.python extension for workspace /home/ash/Documents/Coding/Python
+2024-06-29 10:41:51.383 [info] Interpreter from ms-python.python extension for /home/ash/Documents/Coding/Python: /home/ash/Documents/Coding/Python/bin/python
+2024-06-29 10:41:51.383 [info] Workspace settings for /home/ash/Documents/Coding/Python (client side): {
+    "cwd": "/home/ash/Documents/Coding/Python",
+    "workspace": "file:///home/ash/Documents/Coding/Python",
+    "args": [],
+    "path": [],
+    "interpreter": [
+        "/home/ash/Documents/Coding/Python/bin/python"
+    ],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2024-06-29 10:41:51.385 [info] Global settings (client side): {
+    "cwd": "/home/ash",
+    "workspace": "/home/ash",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+2024-06-29 10:41:51.408 [info] Server run command: /home/ash/Documents/Coding/Python/bin/python /home/ash/.vscode-oss/extensions/ms-python.black-formatter-2024.2.0-universal/bundled/tool/lsp_server.py
+2024-06-29 10:41:51.412 [info] Server: Start requested.
+2024-06-29 10:41:53.417 [info] CWD Server: /home/ash/Documents/Coding/Python
+2024-06-29 10:41:53.418 [info] Settings received on server:
+[
+    {
+        "cwd": "/home/ash/Documents/Coding/Python",
+        "workspace": "file:///home/ash/Documents/Coding/Python",
+        "args": [],
+        "path": [],
+        "interpreter": [
+            "/home/ash/Documents/Coding/Python/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2024-06-29 10:41:53.418 [info] Global settings received on server:
+{
+    "cwd": "/home/ash",
+    "workspace": "/home/ash",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2024-06-29 10:41:53.418 [info] sys.path used to run Server:
+   /home/ash/.vscode-oss/extensions/ms-python.black-formatter-2024.2.0-universal/bundled/libs
+   /home/ash/.vscode-oss/extensions/ms-python.black-formatter-2024.2.0-universal/bundled/tool
+   /usr/lib/python312.zip
+   /usr/lib/python3.12
+   /usr/lib/python3.12/lib-dynload
+2024-06-29 10:41:53.428 [info] /home/ash/Documents/Coding/Python/bin/python -m black --version
+2024-06-29 10:41:53.428 [info] CWD formatter: /home/ash/Documents/Coding/Python
+2024-06-29 10:41:53.993 [info] Version info for formatter running for /home/ash/Documents/Coding/Python:
+black, 24.3.0 (compiled: no)
+Python (CPython) 3.12.4
+
+2024-06-29 10:41:53.994 [info] SUPPORTED black>=22.3.0
+FOUND black==24.3.0
+
+2024-06-29 10:41:58.838 [info] [Trace - 10:41:58 AM] Sending notification 'textDocument/didOpen'.
+2024-06-29 10:45:43.930 [info] [Trace - 10:45:43 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:45:44.229 [info] [Trace - 10:45:44 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:45:44.251 [info] [Trace - 10:45:44 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:45:44.272 [info] [Trace - 10:45:44 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:45:44.293 [info] [Trace - 10:45:44 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:45:44.313 [info] [Trace - 10:45:44 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:45:44.337 [info] [Trace - 10:45:44 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:45:44.356 [info] [Trace - 10:45:44 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:45:44.379 [info] [Trace - 10:45:44 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:45:44.400 [info] [Trace - 10:45:44 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:45:44.420 [info] [Trace - 10:45:44 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:45:44.443 [info] [Trace - 10:45:44 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:46:37.345 [info] [Trace - 10:46:37 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:46:37.927 [info] [Trace - 10:46:37 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:46:38.335 [info] [Trace - 10:46:38 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:46:45.451 [info] [Trace - 10:46:45 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:46:45.655 [info] [Trace - 10:46:45 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:46:45.979 [info] [Trace - 10:46:45 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:46:46.269 [info] [Trace - 10:46:46 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:46:46.453 [info] [Trace - 10:46:46 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:46:46.799 [info] [Trace - 10:46:46 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:46:47.163 [info] [Trace - 10:46:47 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:46:47.513 [info] [Trace - 10:46:47 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:46:47.622 [info] [Trace - 10:46:47 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:46:47.917 [info] [Trace - 10:46:47 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:46:48.082 [info] [Trace - 10:46:48 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:46:48.476 [info] [Trace - 10:46:48 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:46:49.769 [info] [Trace - 10:46:49 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:46:51.254 [info] [Trace - 10:46:51 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:46:52.575 [info] [Trace - 10:46:52 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:46:55.016 [info] [Trace - 10:46:55 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:46:55.221 [info] [Trace - 10:46:55 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:46:55.450 [info] [Trace - 10:46:55 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:46:55.624 [info] [Trace - 10:46:55 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:46:57.518 [info] [Trace - 10:46:57 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:46:57.632 [info] [Trace - 10:46:57 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:46:57.847 [info] [Trace - 10:46:57 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:46:58.088 [info] [Trace - 10:46:58 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:46:58.279 [info] [Trace - 10:46:58 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:46:58.512 [info] [Trace - 10:46:58 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:46:58.637 [info] [Trace - 10:46:58 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:46:58.887 [info] [Trace - 10:46:58 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:46:59.077 [info] [Trace - 10:46:59 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:47:00.295 [info] [Trace - 10:47:00 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:47:00.390 [info] [Trace - 10:47:00 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:47:00.874 [info] [Trace - 10:47:00 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:47:01.012 [info] [Trace - 10:47:01 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:48:08.915 [info] [Trace - 10:48:08 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:52:22.218 [info] [Trace - 10:52:22 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:54:20.515 [info] [Trace - 10:54:20 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:54:21.615 [info] [Trace - 10:54:21 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:54:21.716 [info] [Trace - 10:54:21 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:54:22.173 [info] [Trace - 10:54:22 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:54:22.372 [info] [Trace - 10:54:22 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:54:22.468 [info] [Trace - 10:54:22 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:54:22.997 [info] [Trace - 10:54:22 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:54:23.137 [info] [Trace - 10:54:23 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:54:23.401 [info] [Trace - 10:54:23 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:55:30.404 [info] [Trace - 10:55:30 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:57:33.300 [info] [Trace - 10:57:33 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:57:33.373 [info] [Trace - 10:57:33 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:57:33.946 [info] [Trace - 10:57:33 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:57:34.087 [info] [Trace - 10:57:34 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:57:41.137 [info] [Trace - 10:57:41 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:57:41.320 [info] [Trace - 10:57:41 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:57:41.540 [info] [Trace - 10:57:41 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:57:41.700 [info] [Trace - 10:57:41 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:57:42.048 [info] [Trace - 10:57:42 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:57:42.199 [info] [Trace - 10:57:42 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:57:42.305 [info] [Trace - 10:57:42 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:57:42.979 [info] [Trace - 10:57:42 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:57:43.080 [info] [Trace - 10:57:43 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:57:43.428 [info] [Trace - 10:57:43 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:57:43.622 [info] [Trace - 10:57:43 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:57:43.902 [info] [Trace - 10:57:43 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:57:44.987 [info] [Trace - 10:57:44 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:57:48.549 [info] [Trace - 10:57:48 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:57:49.114 [info] [Trace - 10:57:49 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:57:49.541 [info] [Trace - 10:57:49 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:26.091 [info] [Trace - 10:58:26 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:29.063 [info] [Trace - 10:58:29 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:29.282 [info] [Trace - 10:58:29 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:29.441 [info] [Trace - 10:58:29 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:29.606 [info] [Trace - 10:58:29 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:29.756 [info] [Trace - 10:58:29 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:29.905 [info] [Trace - 10:58:29 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:30.056 [info] [Trace - 10:58:30 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:30.206 [info] [Trace - 10:58:30 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:30.360 [info] [Trace - 10:58:30 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:30.555 [info] [Trace - 10:58:30 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:30.640 [info] [Trace - 10:58:30 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:32.738 [info] [Trace - 10:58:32 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:33.070 [info] [Trace - 10:58:33 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:33.324 [info] [Trace - 10:58:33 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:33.499 [info] [Trace - 10:58:33 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:33.679 [info] [Trace - 10:58:33 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:33.779 [info] [Trace - 10:58:33 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:34.308 [info] [Trace - 10:58:34 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:34.393 [info] [Trace - 10:58:34 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:35.442 [info] [Trace - 10:58:35 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:35.587 [info] [Trace - 10:58:35 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:35.812 [info] [Trace - 10:58:35 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:35.952 [info] [Trace - 10:58:35 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:36.565 [info] [Trace - 10:58:36 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:36.919 [info] [Trace - 10:58:36 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:37.084 [info] [Trace - 10:58:37 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:37.760 [info] [Trace - 10:58:37 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:38.004 [info] [Trace - 10:58:38 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:38.314 [info] [Trace - 10:58:38 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:38.513 [info] [Trace - 10:58:38 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:38.683 [info] [Trace - 10:58:38 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:39.269 [info] [Trace - 10:58:39 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:39.463 [info] [Trace - 10:58:39 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:39.654 [info] [Trace - 10:58:39 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:39.778 [info] [Trace - 10:58:39 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:41.106 [info] [Trace - 10:58:41 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:41.256 [info] [Trace - 10:58:41 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:41.410 [info] [Trace - 10:58:41 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:41.591 [info] [Trace - 10:58:41 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:42.137 [info] [Trace - 10:58:42 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:42.346 [info] [Trace - 10:58:42 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:42.565 [info] [Trace - 10:58:42 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:43.079 [info] [Trace - 10:58:43 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:43.739 [info] [Trace - 10:58:43 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:43.915 [info] [Trace - 10:58:43 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:44.145 [info] [Trace - 10:58:44 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:44.320 [info] [Trace - 10:58:44 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:55.205 [info] [Trace - 10:58:55 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:57.632 [info] [Trace - 10:58:57 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:57.842 [info] [Trace - 10:58:57 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:58.147 [info] [Trace - 10:58:58 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:58.327 [info] [Trace - 10:58:58 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:58.795 [info] [Trace - 10:58:58 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 10:58:58.916 [info] [Trace - 10:58:58 AM] Sending notification 'textDocument/didChange'.
+2024-06-29 11:47:03.922 [info] [Trace - 11:47:03 AM] Sending request 'shutdown - (1)'.
+2024-06-29 11:47:03.928 [info] [Trace - 11:47:03 AM] Received response 'shutdown - (1)' in 15ms.
+2024-06-29 11:47:03.928 [info] [Trace - 11:47:03 AM] Sending notification 'exit'.

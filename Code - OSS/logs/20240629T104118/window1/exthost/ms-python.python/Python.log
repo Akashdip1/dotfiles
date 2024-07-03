@@ -1,0 +1,184 @@
+2024-06-29 10:41:22.354 [info] Default formatter is set to null for workspace /home/ash/Documents/Coding
+2024-06-29 10:41:22.354 [error] Unable to check if shell integration is active [Error: Extension 'ms-python.python' CANNOT use API proposal: terminalDataWriteEvent.
+Its package.json#enabledApiProposals-property declares:  but NOT terminalDataWriteEvent.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at P (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:57957)
+	at a.onDidWriteTerminalData (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:32414)
+	at new g (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:746998)
+	at t.resolveInstance (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2007385)
+	at /home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2009293
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2007159)
+	at /home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2009293
+	at t.resolve (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2009556)
+	at /home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:1993119
+	at e._get (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:1992885)
+	at e.get (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:1991597)
+	at e.dynamicValue (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2014661)
+	at /home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2008782
+	at c (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2007828)
+	at /home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2008722
+	at /home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2008241
+	at Array.map (<anonymous>)
+	at /home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2008213
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2007159)
+	at /home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2009293
+	at t.resolve (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2009556)
+	at /home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:1993119
+	at e._get (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:1992885)
+	at e.get (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:1991597)
+	at a.get (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:463338)
+	at /home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:384002
+	at async t.activateComponents (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:382289)
+	at async /home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2928053
+	at async e (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2927585)
+	at async a.n (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:143:6361)
+	at async a.m (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:143:6324)
+	at async a.l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:143:5781)]
+2024-06-29 10:41:22.354 [info] Test server listening.
+2024-06-29 10:41:22.354 [info] Python interpreter path: ./CS50AI/bin/python
+2024-06-29 10:41:22.373 [info] > pyenv which python
+2024-06-29 10:41:22.373 [info] cwd: .
+2024-06-29 10:41:22.447 [error] [
+  'Failed to activate a workspace, Class name = g, completed in 123ms, has a falsy return value, Arg 1: <Uri:/home/ash/Documents/Coding>, Arg 2: {"started":1719637882209}, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at P (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:57957)
+  	at get testResults (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:25120)
+  	at T.activate (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:775617)
+  	at /home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2460
+  	at Array.map (<anonymous>)
+  	at g.activateWorkspace (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2450)]
+]
+2024-06-29 10:41:22.447 [error] Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at P (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:57957)
+	at get testResults (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:25120)
+	at T.activate (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:775617)
+	at /home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2460
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2450)]
+2024-06-29 10:41:22.447 [error] sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at P (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:57957)
+	at get testResults (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:25120)
+	at T.activate (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:775617)
+	at /home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2460
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2450)]
+2024-06-29 10:41:24.299 [info] Starting Jedi language server for Coding.
+2024-06-29 10:41:50.945 [info] Default formatter is set to null for workspace /home/ash/Documents/Coding/Python
+2024-06-29 10:41:50.945 [error] Unable to check if shell integration is active [Error: Extension 'ms-python.python' CANNOT use API proposal: terminalDataWriteEvent.
+Its package.json#enabledApiProposals-property declares:  but NOT terminalDataWriteEvent.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at P (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:57957)
+	at a.onDidWriteTerminalData (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:32414)
+	at new g (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:746998)
+	at t.resolveInstance (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2007385)
+	at /home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2009293
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2007159)
+	at /home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2009293
+	at t.resolve (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2009556)
+	at /home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:1993119
+	at e._get (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:1992885)
+	at e.get (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:1991597)
+	at e.dynamicValue (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2014661)
+	at /home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2008782
+	at c (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2007828)
+	at /home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2008722
+	at /home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2008241
+	at Array.map (<anonymous>)
+	at /home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2008213
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2007159)
+	at /home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2009293
+	at t.resolve (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2009556)
+	at /home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:1993119
+	at e._get (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:1992885)
+	at e.get (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:1991597)
+	at a.get (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:463338)
+	at /home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:384002
+	at async t.activateComponents (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:382289)
+	at async /home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2928053
+	at async e (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2927585)
+	at async a.n (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:143:6361)
+	at async a.m (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:143:6324)
+	at async a.l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:143:5781)]
+2024-06-29 10:41:50.985 [info] Test server listening.
+2024-06-29 10:41:51.002 [info] > hatch env show --json
+2024-06-29 10:41:51.002 [info] cwd: .
+2024-06-29 10:41:51.312 [info] > pyenv which python
+2024-06-29 10:41:51.312 [info] cwd: .
+2024-06-29 10:41:51.463 [info] > ./bin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/python_files/interpreterInfo.py
+2024-06-29 10:41:51.589 [info] > pyenv which python
+2024-06-29 10:41:51.589 [info] cwd: .
+2024-06-29 10:41:51.614 [info] Python interpreter path: ./bin/python
+2024-06-29 10:41:51.620 [error] [
+  'Failed to activate a workspace, Class name = g, completed in 665ms, has a falsy return value, Arg 1: <Uri:/home/ash/Documents/Coding/Python>, Arg 2: {"started":1719637910714}, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at P (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:57957)
+  	at get testResults (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:25120)
+  	at T.activate (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:775617)
+  	at /home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2460
+  	at Array.map (<anonymous>)
+  	at g.activateWorkspace (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2450)]
+]
+2024-06-29 10:41:51.620 [error] Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at P (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:57957)
+	at get testResults (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:25120)
+	at T.activate (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:775617)
+	at /home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2460
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2450)]
+2024-06-29 10:41:51.620 [error] sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at P (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:57957)
+	at get testResults (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:25120)
+	at T.activate (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:775617)
+	at /home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2460
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2450)]
+2024-06-29 10:41:53.465 [info] Starting Jedi language server for Python.
+2024-06-29 10:42:06.748 [info] Send text to terminal: source /home/ash/Documents/Coding/Python/bin/activate
+2024-06-29 10:42:08.651 [info] Send text to terminal:  /usr/bin/env /home/ash/Documents/Coding/Python/bin/python /home/ash/.vscode-oss/extensions/ms-python.debugpy-2024.6.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 55171 -- /home/ash/Documents/Coding/Python/lonSeq.py 
+2024-06-29 10:42:44.822 [info] Send text to terminal: 
+2024-06-29 10:42:45.022 [info] Send text to terminal:  cd /home/ash/Documents/Coding/Python ; /usr/bin/env /home/ash/Documents/Coding/Python/bin/python /home/ash/.vscode-oss/extensions/ms-python.debugpy-2024.6.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 37269 -- /home/ash/Documents/Coding/Python/lonSeq.py 
+2024-06-29 10:45:53.907 [info] Discover tests for workspace name: Python - uri: /home/ash/Documents/Coding/Python/lonSeq.py
+2024-06-29 10:45:54.048 [info] Send text to terminal: 
+2024-06-29 10:45:54.249 [info] Send text to terminal:  cd /home/ash/Documents/Coding/Python ; /usr/bin/env /home/ash/Documents/Coding/Python/bin/python /home/ash/.vscode-oss/extensions/ms-python.debugpy-2024.6.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 46859 -- /home/ash/Documents/Coding/Python/lonSeq.py 
+2024-06-29 10:47:04.047 [info] Discover tests for workspace name: Python - uri: /home/ash/Documents/Coding/Python/lonSeq.py
+2024-06-29 10:47:13.778 [info] CreateEnv Trigger - Skipping for /home/ash/Documents/Coding/Python/lonSeq.py
+2024-06-29 10:47:13.807 [info] Send text to terminal: source /home/ash/Documents/Coding/Python/bin/activate
+2024-06-29 10:47:14.309 [info] Send text to terminal: /home/ash/Documents/Coding/Python/bin/python /home/ash/Documents/Coding/Python/lonSeq.py
+2024-06-29 10:48:12.570 [info] Send text to terminal: /home/ash/Documents/Coding/Python/bin/python /home/ash/Documents/Coding/Python/lonSeq.py
+2024-06-29 10:48:12.801 [info] Discover tests for workspace name: Python - uri: /home/ash/Documents/Coding/Python/lonSeq.py
+2024-06-29 10:48:14.912 [info] Send text to terminal: /home/ash/Documents/Coding/Python/bin/python /home/ash/Documents/Coding/Python/lonSeq.py
+2024-06-29 10:52:26.639 [info] Send text to terminal: /home/ash/Documents/Coding/Python/bin/python /home/ash/Documents/Coding/Python/lonSeq.py
+2024-06-29 10:52:26.772 [info] Discover tests for workspace name: Python - uri: /home/ash/Documents/Coding/Python/lonSeq.py
+2024-06-29 10:52:35.238 [info] Send text to terminal: 
+2024-06-29 10:52:35.440 [info] Send text to terminal:  cd /home/ash/Documents/Coding/Python ; /usr/bin/env /home/ash/Documents/Coding/Python/bin/python /home/ash/.vscode-oss/extensions/ms-python.debugpy-2024.6.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 46409 -- /home/ash/Documents/Coding/Python/lonSeq.py 
+2024-06-29 10:53:49.679 [info] Send text to terminal: 
+2024-06-29 10:53:49.879 [info] Send text to terminal:  cd /home/ash/Documents/Coding/Python ; /usr/bin/env /home/ash/Documents/Coding/Python/bin/python /home/ash/.vscode-oss/extensions/ms-python.debugpy-2024.6.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 56561 -- /home/ash/Documents/Coding/Python/lonSeq.py 
+2024-06-29 10:54:26.371 [info] Discover tests for workspace name: Python - uri: /home/ash/Documents/Coding/Python/lonSeq.py
+2024-06-29 10:54:27.924 [info] Send text to terminal: 
+2024-06-29 10:54:28.125 [info] Send text to terminal:  cd /home/ash/Documents/Coding/Python ; /usr/bin/env /home/ash/Documents/Coding/Python/bin/python /home/ash/.vscode-oss/extensions/ms-python.debugpy-2024.6.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 53267 -- /home/ash/Documents/Coding/Python/lonSeq.py 
+2024-06-29 10:55:33.333 [info] Discover tests for workspace name: Python - uri: /home/ash/Documents/Coding/Python/lonSeq.py
+2024-06-29 10:55:33.468 [info] Send text to terminal: 
+2024-06-29 10:55:33.669 [info] Send text to terminal:  cd /home/ash/Documents/Coding/Python ; /usr/bin/env /home/ash/Documents/Coding/Python/bin/python /home/ash/.vscode-oss/extensions/ms-python.debugpy-2024.6.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 49931 -- /home/ash/Documents/Coding/Python/lonSeq.py 
+2024-06-29 10:55:42.221 [info] Send text to terminal: /home/ash/Documents/Coding/Python/bin/python /home/ash/Documents/Coding/Python/lonSeq.py
+2024-06-29 10:57:55.202 [info] Send text to terminal: /home/ash/Documents/Coding/Python/bin/python /home/ash/Documents/Coding/Python/lonSeq.py
+2024-06-29 10:57:55.429 [info] Discover tests for workspace name: Python - uri: /home/ash/Documents/Coding/Python/lonSeq.py
+2024-06-29 10:58:46.442 [info] Send text to terminal: /home/ash/Documents/Coding/Python/bin/python /home/ash/Documents/Coding/Python/lonSeq.py
+2024-06-29 10:58:46.676 [info] Discover tests for workspace name: Python - uri: /home/ash/Documents/Coding/Python/lonSeq.py
+2024-06-29 10:59:00.798 [info] Send text to terminal: /home/ash/Documents/Coding/Python/bin/python /home/ash/Documents/Coding/Python/lonSeq.py
+2024-06-29 10:59:01.032 [info] Discover tests for workspace name: Python - uri: /home/ash/Documents/Coding/Python/lonSeq.py

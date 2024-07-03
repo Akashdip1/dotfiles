@@ -1,0 +1,72 @@
+2024-06-29 10:36:40.982 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ash/.vscode-oss/extensions
+2024-06-29 10:36:41.646 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/ash/.vscode-oss/extensions Unable to create file 'vscode-userdata:/home/ash/.vscode-oss/extensions/extensions.json' that already exists when overwrite flag is not set
+2024-06-29 10:36:41.647 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ash/.vscode-oss/extensions
+2024-06-29 10:37:18.031 [info] Getting Manifest... catppuccin.catppuccin-vsc
+2024-06-29 10:37:18.437 [info] Installing extension: catppuccin.catppuccin-vsc vscode-userdata:/home/ash/.vscode-oss/extensions/extensions.json
+2024-06-29 10:37:21.921 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-29 10:37:21.921 [info] Extension signature verification is not done: catppuccin.catppuccin-vsc
+2024-06-29 10:37:21.987 [info] Extracted extension to file:///home/ash/.vscode-oss/extensions/catppuccin.catppuccin-vsc-3.14.0-universal: catppuccin.catppuccin-vsc
+2024-06-29 10:37:21.994 [info] Renamed to /home/ash/.vscode-oss/extensions/catppuccin.catppuccin-vsc-3.14.0-universal
+2024-06-29 10:37:22.107 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ash/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ash/.vscode-oss/extensions/extensions.json.vsctmp'
+    at c.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-06-29 10:37:22.155 [info] Extension installed successfully: catppuccin.catppuccin-vsc vscode-userdata:/home/ash/.vscode-oss/extensions/extensions.json
+2024-06-29 10:38:31.946 [info] Getting Manifest... ms-python.python
+2024-06-29 10:38:32.366 [info] Installing extension: ms-python.python vscode-userdata:/home/ash/.vscode-oss/extensions/extensions.json
+2024-06-29 10:38:32.837 [info] Getting Manifest... ms-python.debugpy
+2024-06-29 10:38:33.514 [info] Installing extension: ms-python.debugpy vscode-userdata:/home/ash/.vscode-oss/extensions/extensions.json
+2024-06-29 10:38:51.255 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-29 10:38:51.256 [info] Extension signature verification is not done: ms-python.debugpy
+2024-06-29 10:38:52.379 [info] Extracted extension to file:///home/ash/.vscode-oss/extensions/ms-python.debugpy-2024.6.0-linux-x64: ms-python.debugpy
+2024-06-29 10:38:52.391 [info] Renamed to /home/ash/.vscode-oss/extensions/ms-python.debugpy-2024.6.0-linux-x64
+2024-06-29 10:38:52.514 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ash/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ash/.vscode-oss/extensions/extensions.json.vsctmp'
+    at c.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-06-29 10:39:44.021 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-29 10:39:44.022 [info] Extension signature verification is not done: ms-python.python
+2024-06-29 10:39:50.257 [info] Extracted extension to file:///home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal: ms-python.python
+2024-06-29 10:39:50.277 [info] Renamed to /home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal
+2024-06-29 10:39:50.437 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ash/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ash/.vscode-oss/extensions/extensions.json.vsctmp'
+    at c.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-06-29 10:39:50.523 [info] Extension installed successfully: ms-python.debugpy vscode-userdata:/home/ash/.vscode-oss/extensions/extensions.json
+2024-06-29 10:39:50.524 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/ash/.vscode-oss/extensions/extensions.json
+2024-06-29 10:40:24.473 [info] Getting Manifest... ms-python.black-formatter
+2024-06-29 10:40:25.013 [info] Installing extension: ms-python.black-formatter vscode-userdata:/home/ash/.vscode-oss/extensions/extensions.json
+2024-06-29 10:40:25.486 [info] Getting Manifest... ms-python.python
+2024-06-29 10:40:32.585 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-29 10:40:32.585 [info] Extension signature verification is not done: ms-python.black-formatter
+2024-06-29 10:40:33.232 [info] Extracted extension to file:///home/ash/.vscode-oss/extensions/ms-python.black-formatter-2024.2.0-universal: ms-python.black-formatter
+2024-06-29 10:40:33.246 [info] Renamed to /home/ash/.vscode-oss/extensions/ms-python.black-formatter-2024.2.0-universal
+2024-06-29 10:40:33.352 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ash/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ash/.vscode-oss/extensions/extensions.json.vsctmp'
+    at c.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-06-29 10:40:33.421 [info] Extension installed successfully: ms-python.black-formatter vscode-userdata:/home/ash/.vscode-oss/extensions/extensions.json

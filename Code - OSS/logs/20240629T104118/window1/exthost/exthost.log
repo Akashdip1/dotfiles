@@ -1,0 +1,275 @@
+2024-06-29 10:41:21.907 [info] Extension host with pid 35490 started
+2024-06-29 10:41:21.907 [info] Skipping acquiring lock for /home/ash/.config/Code - OSS/User/workspaceStorage/3e694f5d5fd4d213ef9a1c17d44f466c.
+2024-06-29 10:41:22.018 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onWalkthrough:pythonWelcome'
+2024-06-29 10:41:22.392 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-29 10:41:22.461 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-29 10:41:22.513 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-29 10:41:22.618 [info] Eager extensions activated
+2024-06-29 10:41:22.675 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-29 10:41:22.680 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-29 10:41:22.693 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2024-06-29 10:41:22.908 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-29 10:41:23.140 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-06-29 10:41:23.451 [error] Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at P (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:57957)
+	at get testResults (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:25120)
+	at T.activate (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:775617)
+	at /home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2460
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2450)
+2024-06-29 10:41:48.029 [info] Extension host terminating: renderer closed the MessagePort
+2024-06-29 10:41:48.059 [error] Canceled: Canceled
+	at new A (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:143:50615)
+	at E.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:6007)
+	at z.<computed>.M.charCodeAt.R.CharCode.DollarSign.z.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:3091)
+	at h.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199937)
+	at h.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199375)
+	at I.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:198699)
+	at h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:200476)
+	at h.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199468)
+	at h.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199375)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:22742)
+	at n.O [as value] (/usr/lib/code/extensions/git/dist/main.js:2:945191)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:734)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:950)
+	at Object.p [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:964275)
+	at /usr/lib/code/extensions/git/dist/main.js:2:970313
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/lib/code/extensions/git/dist/main.js:2:970299)
+	at a.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4032)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4129)
+	at a.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:947448)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4129)
+	at f (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at u.eb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:9991)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:7867
+	at Array.map (<anonymous>)
+	at u.$ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:7854)
+	at u.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:8127)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:1513)
+	at t (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:176:10459)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:176:6675)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-06-29 10:41:48.061 [error] Canceled: Canceled
+	at new A (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:143:50615)
+	at E.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:6007)
+	at z.<computed>.M.charCodeAt.R.CharCode.DollarSign.z.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:3091)
+	at h.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199937)
+	at h.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199375)
+	at I.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:198699)
+	at h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:200476)
+	at h.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199468)
+	at h.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199375)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:22742)
+	at set hasGitHubRepositories (/usr/lib/code/extensions/github/dist/extension.js:2:322969)
+	at /usr/lib/code/extensions/github/dist/extension.js:2:323928
+	at n.value (/usr/lib/code/extensions/git/dist/main.js:2:1050764)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:734)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:950)
+	at Object.p [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:964275)
+	at /usr/lib/code/extensions/git/dist/main.js:2:970313
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/lib/code/extensions/git/dist/main.js:2:970299)
+	at a.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4032)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4129)
+	at a.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:947448)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4129)
+	at f (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at u.eb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:9991)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:7867
+	at Array.map (<anonymous>)
+	at u.$ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:7854)
+	at u.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:8127)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:1513)
+	at t (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:176:10459)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:176:6675)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-06-29 10:41:48.062 [error] Canceled: Canceled
+	at new A (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:143:50615)
+	at E.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:6007)
+	at z.<computed>.M.charCodeAt.R.CharCode.DollarSign.z.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:3091)
+	at h.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199937)
+	at h.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199375)
+	at I.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:198699)
+	at h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:200476)
+	at h.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199468)
+	at h.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199375)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:22742)
+	at n.O [as value] (/usr/lib/code/extensions/git/dist/main.js:2:945191)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:734)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:950)
+	at Object.p [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:964275)
+	at /usr/lib/code/extensions/git/dist/main.js:2:970313
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/lib/code/extensions/git/dist/main.js:2:970299)
+	at a.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4032)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4129)
+	at a.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:947448)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4129)
+	at f (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at u.eb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:9991)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:7867
+	at Array.map (<anonymous>)
+	at u.$ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:7854)
+	at u.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:8127)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:1513)
+	at t (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:176:10459)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:176:6675)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-06-29 10:41:48.062 [error] Canceled: Canceled
+	at new A (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:143:50615)
+	at E.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:6007)
+	at z.<computed>.M.charCodeAt.R.CharCode.DollarSign.z.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:3091)
+	at h.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199937)
+	at h.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199375)
+	at I.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:198699)
+	at h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:200476)
+	at h.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199468)
+	at h.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199375)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:22742)
+	at set hasGitHubRepositories (/usr/lib/code/extensions/github/dist/extension.js:2:322969)
+	at /usr/lib/code/extensions/github/dist/extension.js:2:323928
+	at n.value (/usr/lib/code/extensions/git/dist/main.js:2:1050764)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:734)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:950)
+	at Object.p [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:964275)
+	at /usr/lib/code/extensions/git/dist/main.js:2:970313
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/lib/code/extensions/git/dist/main.js:2:970299)
+	at a.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4032)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4129)
+	at a.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:947448)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4129)
+	at f (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at u.eb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:9991)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:7867
+	at Array.map (<anonymous>)
+	at u.$ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:7854)
+	at u.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:8127)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:1513)
+	at t (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:176:10459)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:176:6675)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-06-29 10:41:48.072 [info] Extension host with pid 35490 exiting with code 0
+2024-06-29 10:41:50.065 [info] Extension host with pid 35956 started
+2024-06-29 10:41:50.065 [info] Skipping acquiring lock for /home/ash/.config/Code - OSS/User/workspaceStorage/c90075f5caa0937088e3528ca6631e7e.
+2024-06-29 10:41:50.200 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-29 10:41:50.362 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-29 10:41:50.465 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-29 10:41:50.520 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:*.py', root cause: ms-python.black-formatter
+2024-06-29 10:41:51.018 [info] ExtensionService#_doActivateExtension ms-python.black-formatter, startup: true, activationEvent: 'workspaceContains:*.py'
+2024-06-29 10:41:51.249 [info] Eager extensions activated
+2024-06-29 10:41:51.269 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-29 10:41:51.274 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-29 10:41:51.290 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2024-06-29 10:41:52.626 [error] Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at P (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:57957)
+	at get testResults (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:25120)
+	at T.activate (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:775617)
+	at /home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2460
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2450)
+2024-06-29 10:41:59.152 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-06-29 10:41:59.328 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-29 10:41:59.361 [error] Activating extension ms-python.debugpy failed due to an error:
+2024-06-29 10:41:59.361 [error] Error: Extension 'ms-python.debugpy' CANNOT use API proposal: portsAttributes.
+Its package.json#enabledApiProposals-property declares:  but NOT portsAttributes.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.debugpy
+	at P (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:57957)
+	at Object.registerPortAttributesProvider (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:42254)
+	at t.registerDebugger (/home/ash/.vscode-oss/extensions/ms-python.debugpy-2024.6.0-linux-x64/dist/extension.js:2:880557)
+	at e.activate (/home/ash/.vscode-oss/extensions/ms-python.debugpy-2024.6.0-linux-x64/dist/extension.js:2:1128292)
+	at J.kb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:13460)
+	at J.jb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:13173)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:11198
+	at async a.n (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:143:6361)
+	at async a.m (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:143:6324)
+	at async a.l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:143:5781)
+2024-06-29 10:42:06.173 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2024-06-29 10:42:11.456 [error] Error: Invalid debug adapter
+    at l.p (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1769:95)
+    at l.$acceptDAExit (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1769:35)
+    at y.S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1658:14598)
+    at y.Q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1658:14364)
+    at y.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1658:13397)
+    at y.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1658:12453)
+    at u.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1658:10928)
+    at h.y (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:89:659)
+    at h.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:89:876)
+    at r.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:615:14848)
+    at U.onmessage (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1673:8154)
+2024-06-29 10:42:44.903 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-06-29 10:42:46.904 [error] Error: Invalid debug adapter
+    at l.p (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1769:95)
+    at l.$acceptDAExit (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1769:35)
+    at y.S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1658:14598)
+    at y.Q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1658:14364)
+    at y.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1658:13397)
+    at y.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1658:12453)
+    at u.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1658:10928)
+    at h.y (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:89:659)
+    at h.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:89:876)
+    at r.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:615:14848)
+    at U.onmessage (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1673:8154)
+2024-06-29 10:47:09.438 [error] Error: Invalid debug adapter
+    at l.p (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1769:95)
+    at l.$acceptDAExit (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1769:35)
+    at y.S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1658:14598)
+    at y.Q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1658:14364)
+    at y.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1658:13397)
+    at y.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1658:12453)
+    at u.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1658:10928)
+    at h.y (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:89:659)
+    at h.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:89:876)
+    at r.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:615:14848)
+    at U.onmessage (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1673:8154)
+2024-06-29 10:53:49.277 [error] Error: Invalid debug adapter
+    at l.p (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1769:95)
+    at l.$acceptDAExit (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1769:35)
+    at y.S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1658:14598)
+    at y.Q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1658:14364)
+    at y.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1658:13397)
+    at y.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1658:12453)
+    at u.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1658:10928)
+    at h.y (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:89:659)
+    at h.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:89:876)
+    at r.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:615:14848)
+    at U.onmessage (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1673:8154)
+2024-06-29 10:54:27.537 [error] Error: Invalid debug adapter
+    at l.p (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1769:95)
+    at l.$acceptDAExit (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1769:35)
+    at y.S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1658:14598)
+    at y.Q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1658:14364)
+    at y.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1658:13397)
+    at y.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1658:12453)
+    at u.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1658:10928)
+    at h.y (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:89:659)
+    at h.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:89:876)
+    at r.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:615:14848)
+    at U.onmessage (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1673:8154)
+2024-06-29 10:54:43.008 [error] Error: Invalid debug adapter
+    at l.p (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1769:95)
+    at l.$acceptDAExit (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1769:35)
+    at y.S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1658:14598)
+    at y.Q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1658:14364)
+    at y.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1658:13397)
+    at y.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1658:12453)
+    at u.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1658:10928)
+    at h.y (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:89:659)
+    at h.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:89:876)
+    at r.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:615:14848)
+    at U.onmessage (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1673:8154)
+2024-06-29 11:47:03.900 [info] Extension host terminating: renderer closed the MessagePort
+2024-06-29 11:47:03.929 [info] Extension host with pid 35956 exiting with code 0

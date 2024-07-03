@@ -1,0 +1,176 @@
+2024-06-29 10:36:41.708 [info] Extension host with pid 31441 started
+2024-06-29 10:36:42.033 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-29 10:36:42.186 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-29 10:36:42.405 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-29 10:36:42.593 [info] Eager extensions activated
+2024-06-29 10:36:42.612 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-29 10:36:42.617 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-29 10:36:50.757 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-29 10:37:22.406 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2024-06-29 10:37:25.109 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-29 10:37:25.274 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-29 10:37:40.458 [info] Extension host terminating: renderer closed the MessagePort
+2024-06-29 10:37:40.479 [info] Extension host with pid 31441 exiting with code 0
+2024-06-29 10:37:43.787 [info] Extension host with pid 32386 started
+2024-06-29 10:37:43.787 [info] Skipping acquiring lock for /home/ash/.config/Code - OSS/User/workspaceStorage/3e694f5d5fd4d213ef9a1c17d44f466c.
+2024-06-29 10:37:44.014 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-06-29 10:37:44.089 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-29 10:37:44.117 [info] Eager extensions activated
+2024-06-29 10:37:44.131 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-29 10:37:44.136 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-29 10:37:44.152 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2024-06-29 10:37:48.863 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-06-29 10:37:49.129 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-29 10:37:49.393 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-06-29 10:39:51.225 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onWalkthrough:pythonWelcome'
+2024-06-29 10:39:53.879 [error] Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at P (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:57957)
+	at get testResults (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:25120)
+	at T.activate (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:775617)
+	at /home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2460
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/ash/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/out/client/extension.js:2:2450)
+2024-06-29 10:41:12.861 [info] Extension host terminating: renderer closed the MessagePort
+2024-06-29 10:41:12.884 [error] Canceled: Canceled
+	at new A (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:143:50615)
+	at E.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:6007)
+	at z.<computed>.M.charCodeAt.R.CharCode.DollarSign.z.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:3091)
+	at h.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199937)
+	at h.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199375)
+	at I.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:198699)
+	at h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:200476)
+	at h.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199468)
+	at h.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199375)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:22742)
+	at n.O [as value] (/usr/lib/code/extensions/git/dist/main.js:2:945191)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:734)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:950)
+	at Object.p [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:964275)
+	at /usr/lib/code/extensions/git/dist/main.js:2:970313
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/lib/code/extensions/git/dist/main.js:2:970299)
+	at a.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4032)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4129)
+	at a.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:947448)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4129)
+	at f (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at u.eb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:9991)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:7867
+	at Array.map (<anonymous>)
+	at u.$ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:7854)
+	at u.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:8127)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:1513)
+	at t (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:176:10459)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:176:6675)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-06-29 10:41:12.885 [error] Canceled: Canceled
+	at new A (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:143:50615)
+	at E.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:6007)
+	at z.<computed>.M.charCodeAt.R.CharCode.DollarSign.z.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:3091)
+	at h.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199937)
+	at h.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199375)
+	at I.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:198699)
+	at h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:200476)
+	at h.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199468)
+	at h.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199375)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:22742)
+	at set hasGitHubRepositories (/usr/lib/code/extensions/github/dist/extension.js:2:322969)
+	at /usr/lib/code/extensions/github/dist/extension.js:2:323928
+	at n.value (/usr/lib/code/extensions/git/dist/main.js:2:1050764)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:734)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:950)
+	at Object.p [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:964275)
+	at /usr/lib/code/extensions/git/dist/main.js:2:970313
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/lib/code/extensions/git/dist/main.js:2:970299)
+	at a.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4032)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4129)
+	at a.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:947448)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4129)
+	at f (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at u.eb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:9991)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:7867
+	at Array.map (<anonymous>)
+	at u.$ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:7854)
+	at u.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:8127)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:1513)
+	at t (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:176:10459)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:176:6675)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-06-29 10:41:12.886 [error] Canceled: Canceled
+	at new A (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:143:50615)
+	at E.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:6007)
+	at z.<computed>.M.charCodeAt.R.CharCode.DollarSign.z.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:3091)
+	at h.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199937)
+	at h.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199375)
+	at I.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:198699)
+	at h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:200476)
+	at h.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199468)
+	at h.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199375)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:22742)
+	at n.O [as value] (/usr/lib/code/extensions/git/dist/main.js:2:945191)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:734)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:950)
+	at Object.p [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:964275)
+	at /usr/lib/code/extensions/git/dist/main.js:2:970313
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/lib/code/extensions/git/dist/main.js:2:970299)
+	at a.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4032)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4129)
+	at a.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:947448)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4129)
+	at f (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at u.eb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:9991)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:7867
+	at Array.map (<anonymous>)
+	at u.$ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:7854)
+	at u.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:8127)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:1513)
+	at t (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:176:10459)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:176:6675)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-06-29 10:41:12.886 [error] Canceled: Canceled
+	at new A (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:143:50615)
+	at E.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:6007)
+	at z.<computed>.M.charCodeAt.R.CharCode.DollarSign.z.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:3091)
+	at h.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199937)
+	at h.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199375)
+	at I.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:198699)
+	at h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:200476)
+	at h.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199468)
+	at h.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199375)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:22742)
+	at set hasGitHubRepositories (/usr/lib/code/extensions/github/dist/extension.js:2:322969)
+	at /usr/lib/code/extensions/github/dist/extension.js:2:323928
+	at n.value (/usr/lib/code/extensions/git/dist/main.js:2:1050764)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:734)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:950)
+	at Object.p [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:964275)
+	at /usr/lib/code/extensions/git/dist/main.js:2:970313
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/lib/code/extensions/git/dist/main.js:2:970299)
+	at a.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4032)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4129)
+	at a.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:947448)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4129)
+	at f (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at u.eb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:9991)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:7867
+	at Array.map (<anonymous>)
+	at u.$ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:7854)
+	at u.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:8127)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:1513)
+	at t (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:176:10459)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:176:6675)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-06-29 10:41:12.894 [info] Extension host with pid 32386 exiting with code 0

@@ -1,3 +1,6 @@
-2024/06/26-17:00:21.412 4 Reusing MANIFEST /home/ash/.config/chromium/Default/Session Storage/MANIFEST-000001
-2024/06/26-17:00:21.414 4 Recovering log #4
-2024/06/26-17:00:21.417 4 Reusing old log /home/ash/.config/chromium/Default/Session Storage/000004.log 
+2024/07/02-22:32:53.347 4 Reusing MANIFEST /home/ash/.config/chromium/Default/Session Storage/MANIFEST-000001
+2024/07/02-22:32:53.348 4 Recovering log #4
+2024/07/02-22:32:53.349 4 Reusing old log /home/ash/.config/chromium/Default/Session Storage/000004.log 
+2024/07/02-22:35:18.635 4 Level-0 table #8: started
+2024/07/02-22:35:18.642 4 Level-0 table #8: 14688 bytes OK
+2024/07/02-22:35:18.643 4 Delete type=0 #4

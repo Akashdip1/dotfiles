@@ -1,5 +1,5 @@
 [Desktop Entry]
-FullScreen=true
+FullScreen=false
 shouldShowMenuBarComingFromFullScreen=true
 shouldShowToolBarComingFromFullScreen=true
 
@@ -8,11 +8,11 @@ LockSidebar=true
 ShowSidebar=true
 
 [MainWindow]
-MenuBar=Disabled
 ToolBarsMovable=Disabled
 
 [Recent Files]
 File1[$e]=$HOME/Downloads/Chess Fundamentals (Jose Raul Capablanca) (Z-Library).pdf
+File10[$e]=$HOME/Documents/Coding/CS50AI/Lec-0/lecture0.pdf
 File2[$e]=$HOME/Downloads/The_Economist_2024-04-13.pdf
 File3[$e]=$HOME/Downloads/NIE_Bhubaneswar_17-04-2024.pdf
 File4[$e]=$HOME/Downloads/Core Resume.pdf
@@ -22,6 +22,7 @@ File7[$e]=$HOME/Downloads/CHSE RESULTS.pdf
 File8[$e]=$HOME/Downloads/The Art of Astonishment Book 1 (Paul Harris) (Z-Library).pdf
 File9[$e]=$HOME/Documents/QuestionsK.pdf
 Name1[$e]=Chess Fundamentals (Jose Raul Capablanca) (Z-Library).pdf
+Name10[$e]=lecture0.pdf
 Name2[$e]=The_Economist_2024-04-13.pdf
 Name3[$e]=NIE_Bhubaneswar_17-04-2024.pdf
 Name4[$e]=Core Resume.pdf
